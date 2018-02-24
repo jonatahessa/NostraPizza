@@ -172,6 +172,14 @@ body .container__content > div.section4 {
     background: #ddebfd;
 }
 
+.fonte-acme {
+  font-family: 'Acme', sans-serif;
+}
+
+.fonte-lobster {
+  font-family: 'Lobster', cursive;
+}
+
 .backgrounded {
     padding-top: 40px;
     background-color: #FFFFFF;
@@ -182,6 +190,10 @@ body .container__content > div.section4 {
     border: none;
     background-color: transparent;
     margin-bottom: 50px;
+}
+
+.paineis {
+  margin-bottom: 40px;
 }
 
 .cardapios {

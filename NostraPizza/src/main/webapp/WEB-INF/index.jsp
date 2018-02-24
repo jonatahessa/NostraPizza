@@ -13,17 +13,18 @@
         <link rel="shortcut icon" href="./_imagens/favicon1.ico" />
         <script type="text/javascript" src="./_resources/domPaginaInicial.js"></script>
         <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+        <link href="https://fonts.googleapis.com/css?family=Acme|Lobster" rel="stylesheet">
         <title>Nostra Pizza</title>
     </head>
     <body>
         <header class="static-header">
             <div class="inside-header">
                 <nav>
-                    <a href="#section1">Home</a>
-                    <a href="#section2">Promoções</a>
-                    <a href="#section3">Cardápio</a>
-                    <a href="#section4">Localização</a>
-                    <a href="#section5">Contato</a>
+                    <a href="#section1"><strong>Home</strong></a>
+                    <a href="#section2"><strong>Promoções</strong></a>
+                    <a href="#section3"><strong>Cardápio</strong></a>
+                    <a href="#section4"><strong>Localização</strong></a>
+                    <a href="#section5"><strong>Contato</strong></a>
                 </nav>
             </div>
         </header>
@@ -31,18 +32,18 @@
         <header class="fixed-header">
             <div class="fheader__container">
                 <nav>
-                    <a href="#section1">Home</a>
-                    <a href="#section2">Promoções</a>
-                    <a href="#section3">Cardápio</a>
-                    <a href="#section4">Localização</a>
-                    <a href="#section5">Contato</a>
+                    <a href="#section1"><strong>Home</strong></a>
+                    <a href="#section2"><strong>Promoções</strong></a>
+                    <a href="#section3"><strong>Cardápio</strong></a>
+                    <a href="#section4"><strong>Localização</strong></a>
+                    <a href="#section5"><strong>Contato</strong></a>
                 </nav>
             </div>
         </header>
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section1">
-                    <h1>Home</h1>
+                    <h1 class="fonte-lobster">Home</h1>
                     <hr/>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -59,14 +60,14 @@
 
             <div class="row justify-content-center">
                 <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section2">
-                    <h1>Promoções</h1>
+                    <h1 class="fonte-lobster">Promoções</h1>
                     <hr/>
                     <c:forEach var="promocao" items="${promocoes}">
                         <div class="row justify-content-center">
-                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 border border-danger text-center">
-                                <h2 class="text-danger">${promocao.nome}</h2>
-                                <h3 class="text-dark">${promocao.descricao}</h3>
-                                <h2 class="text-success">${promocao.preco}</h2>
+                            <div class="paineis col-xs-12 col-sm-12 col-md-8 col-lg-6 border border-danger text-center">
+                                <h2 class="text-danger fonte-acme">${promocao.nome}</h2>
+                                <h3 class="text-dark fonte-acme">${promocao.descricao}</h3>
+                                <h2 class="text-success fonte-acme">${promocao.preco}</h2>
                             </div>
                         </div>
                     </c:forEach>
@@ -75,7 +76,7 @@
 
             <div class="row justify-content-center">
                 <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3">
-                    <h1>Cardápio</h1>
+                    <h1 class="fonte-lobster">Cardápio</h1>
                     <hr/>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-6">
@@ -97,7 +98,7 @@
 
             <div class="row justify-content-center">
                 <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section4">
-                    <h1>Localização</h1>
+                    <h1 class="fonte-lobster">Localização</h1>
                     <hr/>
                     <h3 class="text-center">Avenida Nossa Senhora do Sabará, 4226 - Vila Emir, São Paulo - SP</h3>
                     <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1826.820267886336!2d-46.67700446135582!3d-23.688809671346025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4ff1b4682811%3A0xe92964896ead96a4!2sNostra+Pizza!5e0!3m2!1spt-BR!2sbr!4v1519313697103" height="500px;" allowfullscreen></iframe>
@@ -106,13 +107,13 @@
 
             <div class="row justify-content-center">
                 <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section5">
-                    <h1>Contato</h1>
+                    <h1 class="fonte-lobster">Contato</h1>
                     <hr/>
                     <div class="row justify-content-center">
                         <div class="col-12">
                             <h2 class="text-center display-4">
-                                <a class="text-dark" href="tel:01156126177">5612-6177</a><br/>
-                                <a class="text-dark" href="tel:011954588337">95458-8337</a>
+                                <a class="text-dark" href="tel:01156126177"><strong>5612-6177</strong></a><br/>
+                                <a class="text-dark" href="tel:011954588337"><strong>95458-8337</strong></a>
                                 <img class="col-1" src="./_imagens/whatsapp.png" alt="whatsapp">
                             </h2>
                             <h3 class="text-center">Horário de funcionamento</h3>
@@ -169,7 +170,7 @@
                             <c:forEach var="doce" items="${doces}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${doce.codigo} - ${doce.nome}</h5>
+                                        <h5 class="titulo">${doce.codigo - 78} - ${doce.nome}</h5>
                                         <h5 class="preco">${doce.preco}</h5>
                                         <p class="descricao">${doce.descricao}</p>
                                     </div>
