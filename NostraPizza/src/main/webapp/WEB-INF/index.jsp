@@ -13,12 +13,14 @@
         <link rel="shortcut icon" href="./_imagens/favicon1.ico" />
         <script type="text/javascript" src="./_resources/domPaginaInicial.js"></script>
         <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
-        <link href="https://fonts.googleapis.com/css?family=Acme|Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Lobster|Permanent+Marker" rel="stylesheet">
         <title>Nostra Pizza</title>
     </head>
     <body>
         <header class="static-header">
             <div class="inside-header">
+              <h3 class="logo alinha">NOSTRA PIZZA</h3>
+              <h3 class="fonte-acme no-mobile"><a class="text-dark" href="tel:01156126177">5612-6177</a> / <a class="text-dark" href="tel:011954588337">95458-8337</a></h3>
                 <nav>
                     <a href="#section1"><strong>Home</strong></a>
                     <a href="#section2"><strong>Promoções</strong></a>
@@ -31,6 +33,8 @@
 
         <header class="fixed-header">
             <div class="fheader__container">
+              <h3 class="logo alinha">NOSTRA PIZZA</h3>
+              <h3 class="fonte-acme no-mobile"><a class="text-dark" href="tel:01156126177">5612-6177</a> / <a class="text-dark" href="tel:011954588337">95458-8337</a></h3>
                 <nav>
                     <a href="#section1"><strong>Home</strong></a>
                     <a href="#section2"><strong>Promoções</strong></a>
@@ -79,7 +83,7 @@
                     <h1 class="fonte-lobster">Cardápio</h1>
                     <hr/>
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-lg-6">
+                        <div class="col-xs-12 col-sm-12 col-lg-8">
                             <button type="button" class="col-12 botoes-menu" data-toggle="modal" data-target="#modal-pizzas">
                                 <img class="col-5" src="./_imagens/pizzasalgada.png" alt="Foto de uma pizza salgada"><h3>Clique para abrir as Pizzas Salgadas</h3>
                             </button>
@@ -87,11 +91,20 @@
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-xs-12 col-sm-12 col-lg-6">
+                        <div class="col-xs-12 col-sm-12 col-lg-8">
                             <button type="button" class="col-12 botoes-menu" data-toggle="modal" data-target="#modal-doces">
                                 <img class="col-5" src="./_imagens/pizzadoce.png" alt="Foto de uma pizza doce"><h3>Clique para abrir as Pizzas Doces</h3>
                             </button>
                         </div>
+                    </div>
+
+                    <div class="text-center">
+                      <h1 class="text-danger fonte-lobster">Fazemos Calzones com todos os sabores!</h1>
+                      <img class="img-fluid col-4" src="./_imagens/calzone.png" alt="Imagem de um calzone.">
+                    </div>
+
+                    <div class="text-center">
+                      <h1 class="text-success fonte-acme">TEMOS BORDA RECHEADA DE CATUPIRY E CHEDDAR!</h1>
                     </div>
                 </div>
             </div>
