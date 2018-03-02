@@ -20,7 +20,7 @@
         <header class="static-header">
             <div class="inside-header">
               <h3 class="logo alinha">NOSTRA PIZZA</h3>
-              <h3 class="fonte-acme no-mobile"><a class="text-dark" href="tel:01156126177">5612-6177</a> / <a class="text-dark" href="tel:011954588337">95458-8337</a></h3>
+              <h3 class="fonte-acme no-mobile"><a class="text-dark" href="tel:01156126177">5612-6177</a> / <a class="text-dark" href="tel:01156125083">5612-5083</a>/ <a class="text-dark" href="tel:011954588337">95458-8337</a></h3>
                 <nav>
                     <a href="#section1"><strong>Home</strong></a>
                     <a href="#section2"><strong>Promoções</strong></a>
@@ -126,6 +126,7 @@
                         <div class="col-12">
                             <h2 class="text-center display-4">
                                 <a class="text-dark" href="tel:01156126177"><strong>5612-6177</strong></a><br/>
+                                <a class="text-dark" href="tel:01156125083"><strong>5612-5083</strong></a><br/>
                                 <a class="text-dark" href="tel:011954588337"><strong>95458-8337</strong></a>
                                 <img class="col-1" src="./_imagens/whatsapp.png" alt="whatsapp">
                             </h2>
